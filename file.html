@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Download</title>
+    <link rel="icon" type="image/x-icon" href="assets/ENG_512.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    
+    <style>
+        /* CSS เพิ่มเติมเล็กน้อย เพื่อจัดระยะห่างจาก Navbar */
+        .page-section {
+            padding-top: 6rem;
+            padding-bottom: 6rem;
+        }
+        .card-img-top {
+            border: 1px solid #ddd; /* เพิ่มเส้นขอบให้รูปภาพ */
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+        <div class="container px-5">
+            <a class="navbar-brand" href="index.html"><span class="fw-bolder text-gradient d-inline">WMATHOHNGSA</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="video.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="file.html">File</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        
+    <section class="page-section bg-light">
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+
+                <div class="col-lg-5 mb-5">
+                    <div class="card h-100 shadow border-0">
+                        <img class="card-img-top p-3" src="assets/RESUMEPDF_page-0001.jpg" alt="Resume Thumbnail" />
+                        <div class="card-body p-4 text-center">
+                            <h5 class="card-title fw-bolder">RESUME</h5>
+                            <p class="card-text text-muted">ดูตัวอย่างไฟล์ Resume หรือดาวน์โหลดเป็น PDF</p>
+                        </div>
+                        <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                            <div class="text-center">
+                                <a class="btn btn-secondary me-2" href="assets/file/RESUMEPDF.pdf" target="_blank">ดูตัวอย่าง</a>
+                                <a class="btn btn-primary" href="assets/file/RESUMEPDF.pdf" download>ดาวน์โหลด</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 mb-5">
+                    <div class="card h-100 shadow border-0">
+                        <img class="card-img-top p-3" src="assets/IMG_20250520_001008.jpg" alt="Awards Thumbnail" />
+                        <div class="card-body p-4 text-center">
+                            <h5 class="card-title fw-bolder">Awards & Certificates</h5>
+                            <p class="card-text text-muted">ดูตัวอย่างไฟล์ผลงานและเกียรติบัตร</p>
+                        </div>
+                        <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                            <div class="text-center">
+                                <a class="btn btn-secondary me-2" href="assets/file/ผลงานเพิ่มเติม.pdf" target="_blank">ดูตัวอย่าง</a>
+                                <a class="btn btn-primary" href="assets/file/ผลงานเพิ่มเติม.pdf" download>ดาวน์โหลด</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
